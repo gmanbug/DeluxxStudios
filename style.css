@@ -190,39 +190,43 @@ footer {
   padding: 2rem;
   background-color: #121212; /* dark background */
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center everything horizontally */
 }
 
 .issue-gallery h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #ffffff; /* white text */
+  color: #ffffff;
 }
 
 .issue-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center the thumbnails horizontally */
   gap: 2rem;
-  justify-items: center;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .issue-card {
   text-decoration: none;
-  color: #ffffff;
-  background-color: #1e1e1e; /* dark gray card */
+  background-color: #1e1e1e;
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  width: 100%;
-  max-width: 200px;
+  width: 180px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  align-items: center; /* center image and text */
+  text-align: center;
 }
 
 .issue-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 16px rgba(255,255,255,0.1);
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.1);
 }
 
 .issue-card img {
@@ -234,4 +238,6 @@ footer {
 
 .issue-card p {
   padding: 0.75rem;
-  font-weig
+  font-weight: bold;
+  color: #f0f0f0;
+}
