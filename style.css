@@ -119,3 +119,25 @@ footer {
   color: #ffcc00;
 }
 
+
+#comicbio {
+  background-color: #2c2c2c;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#comicbio h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ffffff44;
+  padding-bottom: 0.5rem;
+}
+
+#comicbio p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
