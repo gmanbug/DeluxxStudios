@@ -138,7 +138,7 @@ footer {
   font-family: 'Arial', sans-serif;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   
-  max-width: 500px;         /* limit max width */
+  max-width: 400px;         /* limit max width */
   width: 90%;               /* responsive width */
 }
 
