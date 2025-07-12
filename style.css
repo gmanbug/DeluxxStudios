@@ -256,15 +256,3 @@ footer {
   color: #f0f0f0;
 }
 
-/* Optional: Reduce spacing on smaller screens */
-@media (max-width: 600px) {
-  .comic-pages {
-    padding: 0.5rem;
-    gap: 0.75rem;
-  }
-
-  .comic-pages img {
-    max-width: 100%;
-    border-radius: 4px;
-  }
-}
