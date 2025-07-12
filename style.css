@@ -255,3 +255,40 @@ footer {
   font-weight: bold;
   color: #f0f0f0;
 }
+
+@media (max-width: 600px) {
+  /* Stack the issue cards vertically */
+  .issue-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Make issue cards full-width on phones */
+  .issue-card {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  /* Adjust heading text size */
+  .issue-gallery h2 {
+    font-size: 1.4rem;
+  }
+
+  /* Optional: smaller footer */
+  footer {
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+  }
+
+  /* Optional: center nav links */
+  nav {
+    text-align: center;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 0.25rem auto;
+  }
+}
