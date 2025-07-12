@@ -256,3 +256,12 @@ footer {
   color: #f0f0f0;
 }
 
+.comic-pages img {
+  width: 100%;        /* Make each image fill the width of its container */
+  max-width: 800px;   /* Optional max width for larger screens */
+  height: auto;       /* Maintain aspect ratio automatically */
+  display: block;     /* Remove bottom whitespace */
+  margin: 0 auto 1rem; /* Center and space images vertically */
+  border-radius: 8px;  /* Optional: rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Optional: subtle shadow */
+}
